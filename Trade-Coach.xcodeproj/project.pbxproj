@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12BF75162AE26B4C00147E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BF75152AE26B4C00147E5A /* AppDelegate.swift */; };
+		12BF75182AE26B4C00147E5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BF75172AE26B4C00147E5A /* SceneDelegate.swift */; };
+		12BF751A2AE26B4C00147E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BF75192AE26B4C00147E5A /* ViewController.swift */; };
+		12BF751D2AE26B4C00147E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BF751B2AE26B4C00147E5A /* Main.storyboard */; };
+		12BF751F2AE26B4D00147E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BF751E2AE26B4D00147E5A /* Assets.xcassets */; };
+		12BF75222AE26B4D00147E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BF75202AE26B4D00147E5A /* LaunchScreen.storyboard */; };
+		12BF752D2AE26B4D00147E5A /* Trade_CoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BF752C2AE26B4D00147E5A /* Trade_CoachTests.swift */; };
+		12BF75372AE26B4D00147E5A /* Trade_CoachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BF75362AE26B4D00147E5A /* Trade_CoachUITests.swift */; };
+		12BF75392AE26B4D00147E5A /* Trade_CoachUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BF75382AE26B4D00147E5A /* Trade_CoachUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12BF75292AE26B4D00147E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12BF750A2AE26B4C00147E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BF75112AE26B4C00147E5A;
+			remoteInfo = "Trade-Coach";
+		};
+		12BF75332AE26B4D00147E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12BF750A2AE26B4C00147E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BF75112AE26B4C00147E5A;
+			remoteInfo = "Trade-Coach";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12BF75122AE26B4C00147E5A /* Trade-Coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trade-Coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BF75152AE26B4C00147E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12BF75172AE26B4C00147E5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		12BF75192AE26B4C00147E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12BF751C2AE26B4C00147E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12BF751E2AE26B4D00147E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12BF75212AE26B4D00147E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12BF75232AE26B4D00147E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12BF75282AE26B4D00147E5A /* Trade-CoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trade-CoachTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BF752C2AE26B4D00147E5A /* Trade_CoachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trade_CoachTests.swift; sourceTree = "<group>"; };
+		12BF75322AE26B4D00147E5A /* Trade-CoachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trade-CoachUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BF75362AE26B4D00147E5A /* Trade_CoachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trade_CoachUITests.swift; sourceTree = "<group>"; };
+		12BF75382AE26B4D00147E5A /* Trade_CoachUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trade_CoachUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12BF750F2AE26B4C00147E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BF75252AE26B4D00147E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BF752F2AE26B4D00147E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12BF75092AE26B4C00147E5A = {
+			isa = PBXGroup;
+			children = (
+				12BF75142AE26B4C00147E5A /* Trade-Coach */,
+				12BF752B2AE26B4D00147E5A /* Trade-CoachTests */,
+				12BF75352AE26B4D00147E5A /* Trade-CoachUITests */,
+				12BF75132AE26B4C00147E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12BF75132AE26B4C00147E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12BF75122AE26B4C00147E5A /* Trade-Coach.app */,
+				12BF75282AE26B4D00147E5A /* Trade-CoachTests.xctest */,
+				12BF75322AE26B4D00147E5A /* Trade-CoachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12BF75142AE26B4C00147E5A /* Trade-Coach */ = {
+			isa = PBXGroup;
+			children = (
+				12BF75152AE26B4C00147E5A /* AppDelegate.swift */,
+				12BF75172AE26B4C00147E5A /* SceneDelegate.swift */,
+				12BF75192AE26B4C00147E5A /* ViewController.swift */,
+				12BF751B2AE26B4C00147E5A /* Main.storyboard */,
+				12BF751E2AE26B4D00147E5A /* Assets.xcassets */,
+				12BF75202AE26B4D00147E5A /* LaunchScreen.storyboard */,
+				12BF75232AE26B4D00147E5A /* Info.plist */,
+			);
+			path = "Trade-Coach";
+			sourceTree = "<group>";
+		};
+		12BF752B2AE26B4D00147E5A /* Trade-CoachTests */ = {
+			isa = PBXGroup;
+			children = (
+				12BF752C2AE26B4D00147E5A /* Trade_CoachTests.swift */,
+			);
+			path = "Trade-CoachTests";
+			sourceTree = "<group>";
+		};
+		12BF75352AE26B4D00147E5A /* Trade-CoachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12BF75362AE26B4D00147E5A /* Trade_CoachUITests.swift */,
+				12BF75382AE26B4D00147E5A /* Trade_CoachUITestsLaunchTests.swift */,
+			);
+			path = "Trade-CoachUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12BF75112AE26B4C00147E5A /* Trade-Coach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BF753C2AE26B4D00147E5A /* Build configuration list for PBXNativeTarget "Trade-Coach" */;
+			buildPhases = (
+				12BF750E2AE26B4C00147E5A /* Sources */,
+				12BF750F2AE26B4C00147E5A /* Frameworks */,
+				12BF75102AE26B4C00147E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trade-Coach";
+			productName = "Trade-Coach";
+			productReference = 12BF75122AE26B4C00147E5A /* Trade-Coach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12BF75272AE26B4D00147E5A /* Trade-CoachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BF753F2AE26B4D00147E5A /* Build configuration list for PBXNativeTarget "Trade-CoachTests" */;
+			buildPhases = (
+				12BF75242AE26B4D00147E5A /* Sources */,
+				12BF75252AE26B4D00147E5A /* Frameworks */,
+				12BF75262AE26B4D00147E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12BF752A2AE26B4D00147E5A /* PBXTargetDependency */,
+			);
+			name = "Trade-CoachTests";
+			productName = "Trade-CoachTests";
+			productReference = 12BF75282AE26B4D00147E5A /* Trade-CoachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12BF75312AE26B4D00147E5A /* Trade-CoachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BF75422AE26B4D00147E5A /* Build configuration list for PBXNativeTarget "Trade-CoachUITests" */;
+			buildPhases = (
+				12BF752E2AE26B4D00147E5A /* Sources */,
+				12BF752F2AE26B4D00147E5A /* Frameworks */,
+				12BF75302AE26B4D00147E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12BF75342AE26B4D00147E5A /* PBXTargetDependency */,
+			);
+			name = "Trade-CoachUITests";
+			productName = "Trade-CoachUITests";
+			productReference = 12BF75322AE26B4D00147E5A /* Trade-CoachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12BF750A2AE26B4C00147E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					12BF75112AE26B4C00147E5A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					12BF75272AE26B4D00147E5A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 12BF75112AE26B4C00147E5A;
+					};
+					12BF75312AE26B4D00147E5A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 12BF75112AE26B4C00147E5A;
+					};
+				};
+			};
+			buildConfigurationList = 12BF750D2AE26B4C00147E5A /* Build configuration list for PBXProject "Trade-Coach" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12BF75092AE26B4C00147E5A;
+			productRefGroup = 12BF75132AE26B4C00147E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12BF75112AE26B4C00147E5A /* Trade-Coach */,
+				12BF75272AE26B4D00147E5A /* Trade-CoachTests */,
+				12BF75312AE26B4D00147E5A /* Trade-CoachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12BF75102AE26B4C00147E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF75222AE26B4D00147E5A /* LaunchScreen.storyboard in Resources */,
+				12BF751F2AE26B4D00147E5A /* Assets.xcassets in Resources */,
+				12BF751D2AE26B4C00147E5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BF75262AE26B4D00147E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BF75302AE26B4D00147E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12BF750E2AE26B4C00147E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF751A2AE26B4C00147E5A /* ViewController.swift in Sources */,
+				12BF75162AE26B4C00147E5A /* AppDelegate.swift in Sources */,
+				12BF75182AE26B4C00147E5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BF75242AE26B4D00147E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF752D2AE26B4D00147E5A /* Trade_CoachTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BF752E2AE26B4D00147E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF75392AE26B4D00147E5A /* Trade_CoachUITestsLaunchTests.swift in Sources */,
+				12BF75372AE26B4D00147E5A /* Trade_CoachUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12BF752A2AE26B4D00147E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BF75112AE26B4C00147E5A /* Trade-Coach */;
+			targetProxy = 12BF75292AE26B4D00147E5A /* PBXContainerItemProxy */;
+		};
+		12BF75342AE26B4D00147E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BF75112AE26B4C00147E5A /* Trade-Coach */;
+			targetProxy = 12BF75332AE26B4D00147E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12BF751B2AE26B4C00147E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12BF751C2AE26B4C00147E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12BF75202AE26B4D00147E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12BF75212AE26B4D00147E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12BF753A2AE26B4D00147E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12BF753B2AE26B4D00147E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12BF753D2AE26B4D00147E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LWW6684F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trade-Coach/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magma.Trade-Coach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12BF753E2AE26B4D00147E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LWW6684F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trade-Coach/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magma.Trade-Coach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12BF75402AE26B4D00147E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LWW6684F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magma.Trade-CoachTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trade-Coach.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trade-Coach";
+			};
+			name = Debug;
+		};
+		12BF75412AE26B4D00147E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LWW6684F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magma.Trade-CoachTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trade-Coach.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trade-Coach";
+			};
+			name = Release;
+		};
+		12BF75432AE26B4D00147E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LWW6684F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magma.Trade-CoachUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trade-Coach";
+			};
+			name = Debug;
+		};
+		12BF75442AE26B4D00147E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LWW6684F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magma.Trade-CoachUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trade-Coach";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12BF750D2AE26B4C00147E5A /* Build configuration list for PBXProject "Trade-Coach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BF753A2AE26B4D00147E5A /* Debug */,
+				12BF753B2AE26B4D00147E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BF753C2AE26B4D00147E5A /* Build configuration list for PBXNativeTarget "Trade-Coach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BF753D2AE26B4D00147E5A /* Debug */,
+				12BF753E2AE26B4D00147E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BF753F2AE26B4D00147E5A /* Build configuration list for PBXNativeTarget "Trade-CoachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BF75402AE26B4D00147E5A /* Debug */,
+				12BF75412AE26B4D00147E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BF75422AE26B4D00147E5A /* Build configuration list for PBXNativeTarget "Trade-CoachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BF75432AE26B4D00147E5A /* Debug */,
+				12BF75442AE26B4D00147E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12BF750A2AE26B4C00147E5A /* Project object */;
+}
